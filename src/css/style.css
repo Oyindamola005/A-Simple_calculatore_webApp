@@ -133,6 +133,13 @@ h3 {
     border-radius: 8px;
     align-self: center;
 }
+.operator-back{
+    padding: 16px;
+    border: 1px solid;
+    border-color: aliceblue;
+    border-radius: 8px;
+    align-self: center;
+}
 .material-symbols-outlined{
     width: 24px;
     height: 24px;
