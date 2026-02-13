@@ -14,7 +14,7 @@ body {
     justify-content: center;
 }
 .container {
-    height: 70vh;
+    height: 90vh;
     width: 600px;
     gap: 32px;
     display: flex;
@@ -55,13 +55,30 @@ align-self: center;
 padding: 0;
 margin: 0;
 }
-#number-box{
+#number-box-1{
     width: 200px;
     border: 1px solid;
     border-color: aliceblue;
     padding: 16px;
     border-radius: 8px;
     margin: 0;
+}
+#number-box-2{
+    width: 200px;
+    border: 1px solid;
+    border-color: aliceblue;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 0;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input{
+    background-color: inherit;
+    color: aliceblue;
 }
 #second-number-container {
 display: flex;
@@ -88,7 +105,35 @@ h3 {
     width: inherit;
     align-content: center;
 }
-.operator{
+.operator-add{
+    padding: 16px;
+    border: 1px solid;
+    border-color: aliceblue;
+    border-radius: 8px;
+    align-self: center;
+}
+.operator-minus{
+    padding: 16px;
+    border: 1px solid;
+    border-color: aliceblue;
+    border-radius: 8px;
+    align-self: center;
+}
+.operator-multiply{
+    padding: 16px;
+    border: 1px solid;
+    border-color: aliceblue;
+    border-radius: 8px;
+    align-self: center;
+}
+.operator-divide{
+    padding: 16px;
+    border: 1px solid;
+    border-color: aliceblue;
+    border-radius: 8px;
+    align-self: center;
+}
+.operator-back{
     padding: 16px;
     border: 1px solid;
     border-color: aliceblue;
@@ -98,4 +143,20 @@ h3 {
 .material-symbols-outlined{
     width: 24px;
     height: 24px;
+}
+#answer-container{
+display: flex;
+flex-direction: row;
+gap: 24px;
+align-self: center;
+padding: 0;
+margin: 0;
+}
+#answer-box{
+    width: 200px;
+    border: 1px solid;
+    border-color: aliceblue;
+    padding: 32px;
+    border-radius: 8px;
+    margin: 0;
 }
