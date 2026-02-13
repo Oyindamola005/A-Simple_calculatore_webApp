@@ -1,10 +1,17 @@
  const firstNumber = document.getElementsById("number-box-1");
  const secondNumber = document.getElementsById("number-box-2");
- const operators = document.querySelectorAll(".operators-container");
  const displayResult = document.getElementById("answer-box");
+ const addBtn = document.querySelector(".operator-add");
+ const minusBtn = document.querySelector(".operator-minus");
+ const multiplyBtn = document.querySelector(".operator-multiply");
+ const divideBtn = document.querySelector(".operator-divide");
 
- function calculate(Operation){
+ function calculate(){
     const firstnumber = parseFloat(firstNumber.value);
     const secondnumber = parseFloat(secondNumber.value);
+
+    if(isNaN(firstnumber) || isNaN(secondnumber)){
+      displayResult.textContent = "Enter valid numbers"  
+      return null;
+    }
  }
- 
