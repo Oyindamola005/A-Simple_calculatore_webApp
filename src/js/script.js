@@ -38,3 +38,5 @@ multiplyBtn.addEventListener("click", () =>{
     if (!values) return;
     displayResult.textContent = values.firstnumber / values.secondnumber;
  });
+
+ console.log("Js successful")
