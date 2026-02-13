@@ -88,7 +88,28 @@ h3 {
     width: inherit;
     align-content: center;
 }
-.operator{
+.operator-add{
+    padding: 16px;
+    border: 1px solid;
+    border-color: aliceblue;
+    border-radius: 8px;
+    align-self: center;
+}
+.operator-minus{
+    padding: 16px;
+    border: 1px solid;
+    border-color: aliceblue;
+    border-radius: 8px;
+    align-self: center;
+}
+.operator-multipy{
+    padding: 16px;
+    border: 1px solid;
+    border-color: aliceblue;
+    border-radius: 8px;
+    align-self: center;
+}
+.operator-divide{
     padding: 16px;
     border: 1px solid;
     border-color: aliceblue;
