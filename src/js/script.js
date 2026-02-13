@@ -14,4 +14,7 @@
       displayResult.textContent = "Enter valid numbers"  
       return null;
     }
+    return{
+        firstnumber, secondnumber
+    };
  }
