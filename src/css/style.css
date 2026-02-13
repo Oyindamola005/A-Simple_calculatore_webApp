@@ -75,7 +75,10 @@ input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
+}
+input{
     background-color: inherit;
+    color: aliceblue;
 }
 #second-number-container {
 display: flex;
