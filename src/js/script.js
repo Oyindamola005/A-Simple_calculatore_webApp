@@ -18,4 +18,23 @@
         firstnumber, secondnumber
     };
  }
- addBtn.addEventListener("click")
+ addBtn.addEventListener("click", () =>{
+    const values = calculate();
+    if (!values) return;
+    displayResult.textContent = values.firstnumber + values.secondnumber;
+ });
+ minusBtnBtn.addEventListener("click", () =>{
+    const values = calculate();
+    if (!values) return;
+    displayResult.textContent = values.firstnumber - values.secondnumber;
+ });
+multiplyBtn.addEventListener("click", () =>{
+    const values = calculate();
+    if (!values) return;
+    displayResult.textContent = values.firstnumber * values.secondnumber;
+ });
+ divideBtn.addEventListener("click", () =>{
+    const values = calculate();
+    if (!values) return;
+    displayResult.textContent = values.firstnumber / values.secondnumber;
+ });
