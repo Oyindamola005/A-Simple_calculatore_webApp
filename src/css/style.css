@@ -55,7 +55,15 @@ align-self: center;
 padding: 0;
 margin: 0;
 }
-#number-box{
+#number-box-1{
+    width: 200px;
+    border: 1px solid;
+    border-color: aliceblue;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 0;
+}
+#number-box-2{
     width: 200px;
     border: 1px solid;
     border-color: aliceblue;
